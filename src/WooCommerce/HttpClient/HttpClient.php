@@ -149,7 +149,7 @@ class HttpClient
             }
         }
 
-        return $url;
+        return html_entity_decode($url);
     }
 
     /**
